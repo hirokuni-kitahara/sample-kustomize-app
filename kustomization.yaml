@@ -1,0 +1,6 @@
+namePrefix: sample-kustomize-
+commonLabels:
+  project: hiro-kustomize-app
+resources:
+- guestbook-ui-deployment.yaml
+- guestbook-ui-svc.yaml
