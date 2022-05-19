@@ -1,6 +1,6 @@
-namePrefix: sample-kustomize-
+namePrefix: sample-app-
 commonLabels:
-  project: hiro-kustomize-app
+  project: sample-app
 resources:
 - sample-deployment.yaml
 - sample-configmap.yaml
