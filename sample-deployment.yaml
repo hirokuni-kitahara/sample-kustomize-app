@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: guestbook-ui
+  name: sample-deployment
 spec:
   replicas: 1
   revisionHistoryLimit: 5
   selector:
     matchLabels:
-      app: guestbook-ui
+      app: sample-deployment
   template:
     metadata:
       labels:
-        app: guestbook-ui
+        app: sample-deployment
     spec:
       containers:
       - image: ubuntu:latest
-        name: guestbook-ui
+        name: sample-deployment
         command: ["bash"]
         args:
         - -c
