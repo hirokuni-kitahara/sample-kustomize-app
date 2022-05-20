@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: sample-configmap
   labels:
-    isSignatureResource: "true"
+    integrityshield.io/signatureResource: "true"
 data: {}
