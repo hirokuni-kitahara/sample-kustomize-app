@@ -4,4 +4,6 @@ metadata:
   name: sample-configmap
   labels:
     integrityshield.io/signatureResource: "true"
-data: {}
+data:
+  message: "the value will be updated by ArgoCD interlace"
+  signature: "the value will be updated by ArgoCD interlace"
