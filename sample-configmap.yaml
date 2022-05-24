@@ -2,7 +2,8 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: sample-configmap
+  annotations:
+    argocd.argoproj.io/hook: Sync
   labels:
     integrityshield.io/signatureResource: "true"
-    argocd.argoproj.io/hook: Skip
 data: {}
