@@ -4,4 +4,5 @@ metadata:
   name: sample-configmap
   labels:
     integrityshield.io/signatureResource: "true"
+    argocd.argoproj.io/hook: Sync
 data: {}
