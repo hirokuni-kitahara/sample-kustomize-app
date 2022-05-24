@@ -5,5 +5,5 @@ metadata:
   labels:
     integrityshield.io/signatureResource: "true"
 data:
-  message: "the value will be updated by ArgoCD interlace"
-  signature: "the value will be updated by ArgoCD interlace"
+  message: ""
+  signature: ""
