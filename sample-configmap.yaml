@@ -4,6 +4,4 @@ metadata:
   name: sample-configmap
   labels:
     integrityshield.io/signatureResource: "true"
-  annotations:
-    argocd.argoproj.io/compare-options: IgnoreExtraneous
 data: {}
