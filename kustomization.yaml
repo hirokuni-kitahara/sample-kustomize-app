@@ -1,6 +1,7 @@
 namePrefix: sample-kustomize-
 commonLabels:
-  project: hiro-kustomize-app
+  project: sample-kustomize-app
 resources:
+- https://github.com/hirokuni-kitahara/sample-kustomize-base.git
 - guestbook-ui-deployment.yaml
 - guestbook-ui-svc.yaml
