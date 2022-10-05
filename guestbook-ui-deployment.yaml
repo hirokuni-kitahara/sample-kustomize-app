@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       # - image: ghcr.io/hirokuni-kitahara/centos:7
-      - image: centos:8
+      - image: centos:7
         command: ["sleep"]
         args: ["infinity"]
         name: guestbook-ui
