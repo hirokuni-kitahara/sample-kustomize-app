@@ -21,6 +21,7 @@ spec:
         name: guestbook-ui
         ports:
         - containerPort: 80
+        # change without signing 21:46
         securityContext:
           privileged: true
 
